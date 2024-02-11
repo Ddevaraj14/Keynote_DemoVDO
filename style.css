@@ -1,11 +1,13 @@
 body {
   margin: 0;
   overflow: hidden; /* Hide scrollbar */
+  width: 1920px;
+  height: 1080px;
 }
 
 video {
-  width: 100%;
-  height: 100%;
+  width: 1920px;
+  height: 1080px;
   margin: 0;
 }
 
