@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const video = document.getElementById("video");
   video.controls = false; // Hide default controls
+  video.muted = true; // Mute the video
 
   let pauseTimes = [
     7, // Pause at 5 seconds
